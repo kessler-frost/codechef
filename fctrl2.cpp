@@ -2,7 +2,8 @@
 using namespace std;
 int main()
 {
-  int t,a[200],x,r,m,i,n;
+  unsigned long int a[1000000];
+  int t,x,r,m,i,n;
   cin>>t;
   while(t--)
   {
