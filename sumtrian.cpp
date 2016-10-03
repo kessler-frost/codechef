@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-  int t,a[100][100],i,j,m,n;
+  int t,a[200][200],m,i,j,n;
   cin>>t;
   while(t--)
   {
@@ -29,7 +29,7 @@ int main()
       }
     }
     m=a[n-1][0];
-    for(j=0;j<n-1;j++)
+    for(j=1;j<n;j++)
     {
       if(a[n-1][j]>m)
       {
